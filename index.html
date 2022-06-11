@@ -369,8 +369,210 @@
 </section>
 <section id="test">
 <h1>Test<a class="headerlink" href="#test" title="Permalink to this heading">¶</a></h1>
+<dl class="py function">
+  <dt class="sig sig-object py" id="application.load_model">
+  <span class="sig-prename descclassname"><span class="pre">test_cases.</span></span><span class="sig-name descname"><span class="pre">test_predict</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#application.load_model" title="Permalink to this definition">¶</a></dt>
+  <dd><p>Test predict(model_path, encoded_input) fucntion in pred/predict.py. The function takes the path
+    of the regressor model and the encoded input data as parameters, and should give a float value as
+    the output.</p>
+  <dl class="field-list simple">
+  <dt class="field-odd">Returns</dt>
+  <dd class="field-odd"><p>None</p>
+  </dd>
+  <dt class="field-even">Return type</dt>
+  <dd class="field-even"><p>None</p>
+  </dd>
+  </dl></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="application.load_model">
+<span class="sig-prename descclassname"><span class="pre">test_cases.</span></span><span class="sig-name descname"><span class="pre">test_get_ng_dict</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#application.load_model" title="Permalink to this definition">¶</a></dt>
+<dd><p>Test get_ng_dict(df) function in application.py. The function takes the df with pd.DataFrame type
+and output an dictionary with the neighbourhood groups as keys, and the contained neighbourhoods 
+as values.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl></dd></dl>
+  
+<dl class="py function">
+<dt class="sig sig-object py" id="application.load_model">
+<span class="sig-prename descclassname"><span class="pre">test_cases.</span></span><span class="sig-name descname"><span class="pre">test_get_pd_df</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#application.load_model" title="Permalink to this definition">¶</a></dt>
+<dd><p>Test get_pd_df(path) function in application.py. The function takes the path of the dataset csv
+  as input, and output the loaded pd.DataFrame object.
+</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>None</p>
+
+</dd></dl></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="application.load_model">
+<span class="sig-prename descclassname"><span class="pre">test_cases.</span></span><span class="sig-name descname"><span class="pre">test_get_ng_dict</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#application.load_model" title="Permalink to this definition">¶</a></dt>
+<dd><p>Test get_ng_dict(df) function in application.py. The function takes the df with pd.DataFrame type
+and output an dictionary with the neighbourhood groups as keys, and the contained neighbourhoods 
+as values.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+
+</dl></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="application.load_model">
+<span class="sig-prename descclassname"><span class="pre">test_cases.</span></span><span class="sig-name descname"><span class="pre">test_plot_bokeh_map_new</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#application.load_model" title="Permalink to this definition">¶</a></dt>
+<dd><p>Tests plot_bokeh_map_new() fucntion in application.py. The plot_bokeh_map_new() function 
+  is used to filter room_lists that help plot bokeh figure.
+  The plot_bokeh_map_new function input should be a structured dataframe and returns a function called viz_key_df with passed in params: room_list and df.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+<dt class="field-even">Return type</dt>
+
+<dd class="field-even"><p>None</p>
+</dd>
+</dl></dd></dl>
 </section>
 
+<dl class="py function">
+<dt class="sig sig-object py" id="application.load_model">
+<span class="sig-prename descclassname"><span class="pre">test_cases.</span></span><span class="sig-name descname"><span class="pre">test_plot_bokeh_smalldf</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#application.load_model" title="Permalink to this definition">¶</a></dt>
+<dd><p>Tests plot_bokeh_smalldf() fucntion in viz_FilterbyText.pipeline_new_1.py. The plot_bokeh_smalldf() function 
+  is used to create an auto-generated bokeh figure from the final_dataframe.csv.
+  The plot_bokeh_smalldf function input should be a structured dataframe and returns a bokeh plot based on it.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="application.load_model">
+<span class="sig-prename descclassname"><span class="pre">test_cases.</span></span><span class="sig-name descname"><span class="pre">test_parse_price_range</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#application.load_model" title="Permalink to this definition">¶</a></dt>
+<dd><p>Test cases for parse_price-range function in application.py. </p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="application.load_model">
+<span class="sig-prename descclassname"><span class="pre">test_cases.</span></span><span class="sig-name descname"><span class="pre">test_select_from_request</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#application.load_model" title="Permalink to this definition">¶</a></dt>
+<dd><p>Test cases for select from request function in application.py. </p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="application.load_model">
+<span class="sig-prename descclassname"><span class="pre">test_cases.</span></span><span class="sig-name descname"><span class="pre">test_sort_keys</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#application.load_model" title="Permalink to this definition">¶</a></dt>
+<dd><p>Test cases for sort_keys function in viz_FilterbyText/pipeline_new_1.py. </p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="application.load_model">
+<span class="sig-prename descclassname"><span class="pre">test_cases.</span></span><span class="sig-name descname"><span class="pre">test_viz_key_df</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#application.load_model" title="Permalink to this definition">¶</a></dt>
+<dd><p>Test cases for viz_key_df function in ./viz_FilterbyText.pipeline_new_1.py. </p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>None</p>
+</dd></dl></dd></dl>
+
+
+<dl class="py function">
+<dt class="sig sig-object py" id="application.load_model">
+<span class="sig-prename descclassname"><span class="pre">test_cases.</span></span><span class="sig-name descname"><span class="pre">test_load_model</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#application.load_model" title="Permalink to this definition">¶</a></dt>
+<dd><p>Test the load_model() in application.py. </p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>None</p>
+</dd></dl></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="application.load_model">
+<span class="sig-prename descclassname"><span class="pre">test_cases.</span></span><span class="sig-name descname"><span class="pre">test_actual_app</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#application.load_model" title="Permalink to this definition">¶</a></dt>
+<dd><p>Test the actual application renders. </p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>None</p>
+</dd></dl></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="application.load_model">
+<span class="sig-prename descclassname"><span class="pre">test_cases.</span></span><span class="sig-name descname"><span class="pre">test_visualize_count</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#application.load_model" title="Permalink to this definition">¶</a></dt>
+<dd><p>Test the hexbin map for visualizing counts. </p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>None</p>
+</dd></dl></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="application.load_model">
+<span class="sig-prename descclassname"><span class="pre">test_cases.</span></span><span class="sig-name descname"><span class="pre">test_visualize_price</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#application.load_model" title="Permalink to this definition">¶</a></dt>
+<dd><p>Test the hexbin map for visualizing price. </p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>None</p>
+</dd></dl></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="application.load_model">
+<span class="sig-prename descclassname"><span class="pre">test_cases.</span></span><span class="sig-name descname"><span class="pre">test_donut</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#application.load_model" title="Permalink to this definition">¶</a></dt>
+<dd><p>Test the dount() which generates the donut chart. </p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>None</p>
+</dd></dl></dd></dl>
 
            </div>
           </div>
